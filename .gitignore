@@ -1,0 +1,76 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcuserdatad/
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdata
+*.xcsettings
+*.xccheckout
+*.xcodeproj/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# Other
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+*.pyc
+*.pyo
+*.env
+.env
+
+# Ignore Markdown backup files
+*.md~
+
+# Ignore screenshots
+Screenshots/
+
+# Ignore user-specific files
+*.user
+*.userprefs
+*.local
+*.history
+
+# Ignore IDE workspace settings
+.idea/
+.vscode/
+
+# Ignore plist backups
+*.plist~
+
+# Ignore coverage reports
+coverage/
+*.gcov
+
+# Ignore lock files
+*.lock
+
+# Ignore test output
+TestResults/
+
+# Ignore preview content
+Tahudu/Preview Content/
